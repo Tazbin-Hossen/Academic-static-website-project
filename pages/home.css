@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+/* home section */
+.main
+{
+    height: 37rem;
+    width: 100%;
+}
+.bg-pic
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/herosection.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    padding-top: 3%;
+    height: 20%;
+    width: 100%;
+    background-color:transparent;
+}
+.flx-nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+}
+.under-nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.name-nav
+{
+    width: 30%;
+}
+.udr-nav
+{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size:1rem;  
+}
+.udr-nav a
+{
+    text-decoration: none;
+}
+.hero-type1
+{
+    margin-top: 19%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.25em;
+}
+
+

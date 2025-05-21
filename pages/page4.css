@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .typo
+{
+    font-size: 7em;
+    font-weight: bolder;
+    
+}
+.container .typo span
+{
+    color: rgb(58, 203, 121);
+}
+.designer
+{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10%;
+    align-items: center;
+
+}
+.designer .box
+{
+    height: 40%;
+    width: 100%;
+    
+    border-radius:2em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2em 2em 5em red;
+}
+.pic
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 1.5em;
+    background-image: url(../assets/srimon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic2
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 1.5em;
+    background-image: url(../assets/tazbin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.details
+{
+    padding-left: 1.25em;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.details a
+{
+    text-decoration: none;
+}
+.btn
+{
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 10em;
+}
+.cf 
+{
+    background-color: yellow;
+    color: black;
+   
+}
+.cf1
+{
+    background-color: yellow;
+    color: black;
+}
+.link1 
+{
+    background-color:  rgb(9, 138, 203);
+    color: black;
+   
+}
+.link
+{
+    background-color: rgb(9, 138, 203);
+    color: rgb(241, 239, 239);
+}
+

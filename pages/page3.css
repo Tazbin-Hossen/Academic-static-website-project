@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+}
+.full
+{
+    height: 37rem;
+    width: 100%;
+}
+.space
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/astronut.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.space p
+{
+    padding-top:25rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(182, 255, 160);
+    text-align: center;
+    font-size: 1.5;
+}
+.side-1
+{
+    height: 50%;
+    width: 28%;
+    background-color:transparent;
+    font-size:1rem;
+    border-radius: 2%;
+    box-shadow: 13em 15em 15em rgb(34, 86, 228);
+    padding-left: 0.5em;
+}
+.side-1 h3
+{
+    padding-left:8%;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    padding-bottom: 1.5em;
+
+}
+
+.side-2
+{
+    margin-top: 17%;
+    padding-left:0.5em ;
+    height: 55%;
+    width: 28%;
+    background-color:transparent;
+    border-radius: 2%;
+    box-shadow: 13em -15em 15em rgb(193, 60, 78);
+    color: azure;
+    
+}
+.side-2 h3
+{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    padding-bottom: 1.5em;
+}
+.side-3
+{
+    height: 50%;
+    width: 28%;
+    background-color:transparent;
+    border-radius: 2%;
+    box-shadow: 5em 2em 10em gray;
+    padding-left:0.5em ;
+    
+}
+.side-3 h3
+{
+    padding-left:8%;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    padding-bottom: 1.5em;
+}
